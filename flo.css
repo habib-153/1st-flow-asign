@@ -2,13 +2,14 @@
     font-family: 'Lato', sans-serif;
     margin-top: 0px;
 }
-.bt-pri{
+
+.bt-pri {
     border-radius: 8px;
-background: #E55473;
-padding: 10px 30px;
-color: white;
-font-size: 15px;
-border: none;
+    background: #E55473;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    border: none;
 }
 
 /* header design */
@@ -16,7 +17,7 @@ header {
     background-color: rgba(229, 84, 115, 0.10);
     /* margin-top: 0px; */
     display: flex;
-   gap: 50px;
+    gap: 50px;
     padding: 50px 140px 0px;
 }
 
@@ -34,11 +35,83 @@ header img {
     margin-bottom: 0px;
     /* padding-bottom: 0px; */
 }
-.header-text p{
+
+.header-text p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     width: 600px;
-font-weight: 400;
-margin-top: 0px;
-margin-bottom: 30px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+/* featured design */
+section {
+    margin: 100px 150px;
+}
+
+.feat-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.feat-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 170px;
+    margin-bottom: 35px;
+}
+
+.feat-img {
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content: space-between;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 0px;
+}
+
+.pink-two {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 150px 40px 50px;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.pink-one {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 40px 50px;
+    width: 64%;
+    margin-bottom: 15px;
+}
+
+.pink-three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 90px 40px 50px;
+    width: 60%;
+    margin-bottom: 15px;
+}
+.extra-cont{
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+gap: 70px;
+padding: 85px 120px;
+}
+.extra{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 15px;
+font-weight: 600;
 }

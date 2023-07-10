@@ -167,8 +167,53 @@ margin-bottom: 48px;
 .insta-img{
     display: flex;
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 94%;
 }
 .insta-img> img{
     width: 25%;
+}
+/* latest deals */
+.latest-deals{
+    background-image: url('Rectangle\ 9.png');
+    padding: 100px 150px;
+}
+form{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+input[type="email"]
+{
+    border: none;
+    border-radius: 8px;
+background: #FFF;
+padding: 20px;
+width: 300px;
+}
+/* footer */
+footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 120px 350px;
+}
+.ft-title{
+    font-size: 48px;
+font-weight: 800;
+color: white;
+margin-bottom: 20px;
+}
+span{
+    color: #E55473;
+}
+.ft-des{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+small{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
 }

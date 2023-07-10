@@ -47,7 +47,7 @@ header img {
 
 /* featured design */
 section {
-    margin: 100px 150px;
+    margin: 100px 120px;
 }
 
 .feat-title {
@@ -145,4 +145,30 @@ section {
     font-weight: 400;
     margin-top: 18px;
     margin-bottom: 25px;
+}
+/* insta design */
+
+.insta-text{
+    text-align: center;
+}
+.insta-title{
+    color: #272727;
+    font-size: 40px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.insta-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+font-weight: 400;
+padding: 0px 200px;
+margin-bottom: 48px;
+}
+.insta-img{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.insta-img> img{
+    width: 25%;
 }
